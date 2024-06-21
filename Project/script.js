@@ -34,7 +34,7 @@ portfolio_btns.forEach((button) => {
     } else if (button.id == "week4") {
       portfolio_frame.src = "./../week4/week4.html";
     } else if (button.id == "week4-ex") {
-      portfolio_frame.src = "./../week4_exercise/exercise.html";
+      portfolio_frame.src = "./../week4_exercise/index.html";
     } else if (button.id == "week5") {
       portfolio_frame.src = "./../week5/week5.html";
     } else if (button.id == "week6") {
