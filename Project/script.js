@@ -30,21 +30,21 @@ portfolio_btns.forEach((button) => {
     } else if (button.id == "week3") {
       portfolio_frame.src = "./../week3/week3.html";
     } else if (button.id == "week3-ex") {
-      portfolio_frame.src = "./../week3_exercise/exercise.html";
+      portfolio_frame.src = "./../week3_exercise/Exercise.html";
     } else if (button.id == "week4") {
       portfolio_frame.src = "./../week4/week4.html";
     } else if (button.id == "week4-ex") {
-      portfolio_frame.src = "./../week4_exercise/index.html";
+      portfolio_frame.src = "./../week4_exercise/Exercise.html";
     } else if (button.id == "week5") {
       portfolio_frame.src = "./../week5/week5.html";
     } else if (button.id == "week6") {
       portfolio_frame.src = "./../week6/week6.html";
     } else if (button.id == "week6-ex") {
-      portfolio_frame.src = "./../week6_exercise/exercise.html";
+      portfolio_frame.src = "./../week6_exercise/Exercise.html";
     } else if (button.id == "week7") {
       portfolio_frame.src = "./../week7/week7.html";
     } else if (button.id == "week7-ex") {
-      portfolio_frame.src = "./../week7_exercise/exercise.html";
+      portfolio_frame.src = "./../week7_exercise/Exercise.html";
     } else if (button.id == "week9") {
       portfolio_frame.src = "./../week9/week9.html";
     } else if (button.id == "week10") {
