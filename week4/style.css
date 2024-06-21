@@ -1,0 +1,23 @@
+h1 {
+  color: red;
+}
+
+#page-title {
+  color: red;
+}
+
+.title {
+  color: red;
+}
+
+.text {
+  color: blue;
+}
+
+p {
+  color: red;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+}

@@ -1,0 +1,49 @@
+h1 {
+  color: red;
+  text-align: center !important;
+  font-family: "Poppins", sans-serif;
+}
+/* 
+p {
+  color: red;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+p {
+  color: red;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+p {
+  color: red;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+p {
+  color: red;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+} */
+
+#page-title {
+  color: red;
+}
+
+.title {
+  color: red;
+}
+
+.text {
+  color: blue;
+}

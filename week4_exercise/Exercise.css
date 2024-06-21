@@ -1,0 +1,21 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: darkblue;
+  border: 1px dashed #2001ab;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+#img-frame > img {
+  border: 3px solid rgb(255, 155, 155);
+}
+
+#list {
+  width: fit-content;
+}

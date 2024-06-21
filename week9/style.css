@@ -1,0 +1,69 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./../asset/week6background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+  .header-container > h1 {
+    text-align: center;
+    color: aqua;
+    padding-bottom: 30px;
+  }
+  
+  .header-container > h4 {
+    text-align: center;
+    color: aqua;
+  } */
+
+.header-container > h1,
+.header-container > h4 {
+  text-align: center;
+  color: aqua;
+}
+
+.header-container > h1 {
+  padding-bottom: 30px;
+}
+
+.test-box-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 30px auto 0;
+}
+
+.test-box {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+}
+
+.action-btn {
+  margin: 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkblue;
+  background-color: lightblue;
+}

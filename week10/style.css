@@ -1,0 +1,103 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./../asset/week6background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  height: 2000px;
+}
+
+/* 
+  .header-container > h1 {
+    text-align: center;
+    color: aqua;
+    padding-bottom: 30px;
+  }
+  
+  .header-container > h4 {
+    text-align: center;
+    color: aqua;
+  } */
+
+.header-container > h1,
+.header-container > h4 {
+  text-align: center;
+  color: aqua;
+}
+
+.header-container > h1 {
+  padding-bottom: 30px;
+}
+
+.test-box-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 30px auto 0;
+}
+
+.test-box {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+}
+
+.action-btn {
+  margin: 0 auto;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkblue;
+  background-color: lightblue;
+  border-radius: 10px;
+  border: 1px solid darkblue;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+}
+
+.action-btn:hover {
+  background-color: darkblue;
+  color: lightblue;
+  border: 1px solid lightblue;
+}
+
+.mode-switch {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.light-mode {
+  background-color: aqua;
+  color: darkblue;
+}
+
+.dark-mode {
+  background-color: darkblue;
+  color: aqua;
+}

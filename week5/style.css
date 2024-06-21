@@ -1,0 +1,42 @@
+.sample {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  vertical-align: center;
+  width: 600px;
+  height: 400px;
+  background-color: blue;
+}
+
+.sample {
+  background-image: url("./asset/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+
+.box-shadow {
+  background-color: aqua;
+  box-shadow: 3px 3px 5px blue;
+}
+
+.button {
+  width: 100px;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-size: 0.8em;
+  color: darkblue;
+  border: darkblue 1px solid;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+
+.button:hover {
+  background-color: darkblue;
+  color: lightblue;
+}
